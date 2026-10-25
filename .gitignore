@@ -1,0 +1,23 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local application state
+chroma_db/
+data/maintenance_tickets.json
+
+# Local tooling and operating-system files
+.streamlit/
+.vscode/
+.idea/
+*.log
+Thumbs.db
+.DS_Store
